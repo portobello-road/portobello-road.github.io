@@ -1,0 +1,15 @@
+/* TEAM */
+	Founder/Lead Engineer: Justin Lynn
+	Site: https://jaesharp.com/
+	Twitter: justinrwlynn
+	Location: San Francisco, CA
+
+/* THANKS */
+
+/* SITE */
+	Creation: 23 Jan, 2014
+	Language: En_AU
+	Doctype: HTML5
+	Standards: HTML5, CSS3
+	Components: Foundation, jQuery
+	Software: jekyll, git, webstorm
