@@ -1,0 +1,84 @@
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+
+/* zocial */
+[class*="zocial-"]:before {
+    font-family: 'zocial', sans-serif;
+}
+/* entypo */
+[class*="entypo-"]:before {
+    font-family: 'entypo', sans-serif;
+}
+
+.top-bar {
+    background: none repeat scroll 0 0 #13456b;
+}
+
+.top-bar-section li:not(.has-form) a:hover:not(.button) {
+    background-color: #2285A2;
+    transition: background-color 300ms ease-out 0s;
+}
+.top-bar-section li:not(.has-form) a:not(.button) {
+    background-color: #13456b;
+}
+
+#homepage-hero {
+    background-color: #235c99;
+    height: 440px;
+    padding: 100px 20px 0;
+    position: relative;
+    text-align: left;
+    color: white !important;
+}
+
+#blurb {
+    position: relative;
+    left: 1em;
+}
+
+#homepage-hero h1, h2, h3 {
+    color: white !important;
+}
+
+#homepage-hero > .row {
+    margin: 0 auto;
+}
+
+#homepage-hero > button, .button {
+    background-color: white;
+    border: medium none;
+    color: black;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
+    font-size: 1rem  !important;
+    font-weight: normal !important;
+    line-height: normal;
+    margin: 1rem 0 1.25rem;
+    padding: 1.0625rem 2rem 1rem  !important;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 300ms ease-out 0s;
+}
+
+.highlights {
+    position: relative;
+    top: -4em;
+    right: 1em;
+}
+
+.highlights-content-wrapper {
+    display: table;
+    width: 100%;
+}
+
+.highlights-content {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.highlights-content span.icon {
+    font-size: 10em;
+}

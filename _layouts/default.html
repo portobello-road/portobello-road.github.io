@@ -1,33 +1,29 @@
 <!DOCTYPE html>
-  <head>
-    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-    <meta name="viewport" content="width=device-width" />
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <meta name="viewport" content="width=device-width"/>
     <title>{{ page.title }}</title>
 
-    <link rel="stylesheet" href="assets/css/normalize.css" />
-    <link rel="stylesheet" href="assets/css/foundation.min.css" />
-    <link rel="stylesheet" href="assets/css/app.css" />
+    <link rel="stylesheet" href="/assets/css/normalize.css"/>
+    <link rel="stylesheet" href="/assets/css/foundation.min.css"/>
+    <link rel="stylesheet" href="/assets/css/app.css"/>
 
-    <script src="assets/js/vendor/modernizr.js"></script>
-  </head>
-  <body>
+    <script src="/assets/js/vendor/modernizr.js"></script>
+</head>
+<body>
 
     {% include nav.html %}
 
-    <div class="row">
-      <div class="twelve columns centered">
-
-        <div id="wrapper">
-          {{ content }}
-        </div>
-
-      </div>
+    <div id="wrapper">
+        {{ content }}
     </div>
 
-    <script src="assets/js/vendor/jquery.js"></script>
-    <script src="assets/js/vendor/fastclick.js"></script>
+    <script src="/assets/js/vendor/jquery.js"></script>
+    <script src="/assets/js/vendor/fastclick.js"></script>
+    <script src="/assets/js/foundation.min.js"></script>
     <script>
         $(document).foundation();
     </script>
-  </body>
+
+</body>
 </html>
