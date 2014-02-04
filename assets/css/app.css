@@ -10,9 +10,12 @@
     font-family: 'entypo', sans-serif;
 }
 
+body, h1, h2, h3, h4, h5, h6, p {
+    font-family: "OpenSans", Arial, Helvetica, sans-serif;
+}
+
 .top-bar {
     background: none repeat scroll 0 0 #13456b;
-    box-shadow: 0px 8px 10px 3px rgba(19,69,107,1);
 }
 
 .top-bar-section li:not(.has-form) a:hover:not(.button) {
@@ -48,25 +51,27 @@
 #homepage-hero > button, .button {
     background-color: white;
     border: medium none;
-    color: black;
+    color: #13456b;
     cursor: pointer;
     display: inline-block;
     font-family: "Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
-    font-size: 1rem  !important;
-    font-weight: normal !important;
+    font-size: 1.25rem  !important;
+    font-weight: bold !important;
     line-height: normal;
     margin: 1rem 0 1.25rem;
-    padding: 1.0625rem 2rem 1rem  !important;
+    padding: 1rem 1.5rem 1rem  !important;
     position: relative;
     text-align: center;
     text-decoration: none;
     transition: background-color 300ms ease-out 0s;
+    border-radius: 2px;
 }
 
 .highlights {
-    position: relative;
-    top: -4em;
-    right: 1em;
+    position: absolute;
+    top: -3em;
+    right: 3em;
+    width: 250px;
 }
 
 .highlights-content-wrapper {
@@ -82,5 +87,43 @@
 
 .highlights-content span.icon {
     font-size: 10em;
-    text-shadow: 10px 10px 5px #13456B;
+}
+
+.githubissues {
+    background: none repeat scroll 0 0 #13456B;
+}
+
+.githubissues h4 {
+    color: #FFFFFF;
+    float: left;
+    font-size: 14px;
+    opacity: 0.7;
+    margin-top: 28px;
+}
+
+.githubissues span, #github #github a {
+    color: #FFFFFF;
+    font-size: 1.2rem;
+}
+
+#github span.date {
+    font-size: 13px;
+}
+
+.githubissues a.commit {
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+    opacity: 0.7;
+    word-wrap: break-word;
+}
+
+.githubissues a.button {
+    float: right;
+    font-size: 14px;
+}
+
+p.commit {
+    color: white;
+    margin-top: 30px;
 }
